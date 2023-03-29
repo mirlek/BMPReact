@@ -24,6 +24,7 @@ module.exports = {
         publicPath: '/dist/',
         filename: 'bundle.js'
     },
+    target: "web",
     devServer: {
         // contentBase
         static : {
